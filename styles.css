@@ -1,0 +1,97 @@
+*{
+  padding:0;
+  margin: 0;
+
+}
+body{
+  padding: 0;
+  background-color: rgb(240,255,255);
+}
+
+#logo{
+  background-color: black;
+  color: white;
+  font-size:200%;
+  height:8%;
+  width:100%;
+}
+#NAV{
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 191, 0);
+  width: 100%;
+  box-shadow: 5px;
+  font-size: 100%;
+  border-radius: 3px;
+  -moz-border-radius-topleft: 0;
+  -moz-border-radius-topright: 0;
+  height: 3%;
+}
+.NavItem {
+  text-decoration: none;
+  color:black;
+}
+
+.banner{
+  box-shadow:3px 5px 3px;
+  width:97%;
+  margin-inline: 2%;
+  border-radius: 2.3%;
+  
+}
+
+#AboutUs{
+    
+    border-radius: 8px;
+    background-color: white;
+    padding: 2%;
+    box-shadow: 5px 5px 5px;
+    font-size: 150%;
+    
+}
+.eve_work{
+    display: flex;
+}
+.eve{
+    width: 45%;
+    background-color: white;
+    padding: 2%;
+    box-shadow: 5px 5px 5px;
+    border-radius: 8px;
+    font-size: 150%;
+    margin:1%;
+    margin-top: 2%;
+    
+}
+footer{
+  position:relative;
+  left: 0;
+  bottom: 0;
+  width:100%;
+  background-color: rgb(2, 2, 54);
+  padding: 5%;
+}
+
+#clubAdd{
+  color:antiquewhite;
+}
+
+
+.clkable{
+width:3%;
+
+}
+
+#contact{
+  color:antiquewhite;
+}
+#social{
+  text-decoration: none;
+  color:rgb(105, 102, 100);
+}
+
+.AddDetail{
+color:rgb(105, 102, 100);
+}
+
+
