@@ -61,6 +61,7 @@ body{
     font-size: 150%;
     margin:1%;
     margin-top: 2%;
+    transition: transform 0.3s ease;
     
 }
 footer{
@@ -94,4 +95,102 @@ width:3%;
 color:rgb(105, 102, 100);
 }
 
+
+#projects {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 36px;
+  color: #333;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.project-card  {
+  background: #fff;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.project-card:hover,.eve:hover{
+  transform: scale(1.05);
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project-card h3 {
+  margin: 15px 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.project-card p {
+  font-size: 16px;
+  color: #777;
+}
+
+.project-card, .tags {
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 10px;
+  display: block;
+}
+
+.btn {
+  background-color: #ff6347;
+  color: #fff;
+  padding: 10px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff4500;
+}
+
+
+#photo-gallery {
+  padding: 50px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+#photo-gallery h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.gallery-item {
+  overflow: hidden;
+}
+
+.gallery-item img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s ease;
+  object-fit: cover;
+}
+
+.gallery-item:hover img {
+  transform: scale(1.1);
+}
 
